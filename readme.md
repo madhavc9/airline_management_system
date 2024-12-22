@@ -9,7 +9,7 @@
   <p align="center">
     An advanced software application designed to automate and streamline airline operations.
     <br />
-    <a href="https://drive.google.com/file/d/1u2Wp9EZWtlNO8qBS8KXrZ5WEn0JMajo_/view?usp=sharing"><strong>Explore the documentation »</strong></a>
+    <a href="https://drive.google.com/file/d/1o68__9cxD7sSx19zhA326S3paJ6YXtU6/view?usp=sharing"><strong>Explore the documentation »</strong></a>
     <br />
     <a href="https://drive.google.com/file/d/1tP3LpOuq9oVjJ5IHTt3EekR550bA1q01/view?usp=sharing"><strong>Video Demonstration »</strong></a>
     <br />
