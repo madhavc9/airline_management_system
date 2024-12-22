@@ -1,0 +1,50 @@
+login {
+    username varchar(20)
+    password varchar(20)
+    PRIMARY KEY(username)
+}
+
+passenger {
+    name varchar(20)
+    nationality varchar(20)
+    phone varchar(15)
+    address varchar(50)
+    aadhar varchar(20)
+    gender varchar(20)
+    PRIMARY KEY(aadhar)
+}
+
+flight {
+    f_code varchar(20)
+    f_name varchar(20)
+    source varchar(40)
+    destination varchar(40)
+    PRIMARY KEY(f_code)
+}
+
+reservation {
+    PNR varchar(15)
+    TICKET varchar(20)
+    aadhar varchar(20)
+    name varchar(20)
+    nationality varchar(30)
+    flightname varchar(15)
+    flightcode varchar(20)
+    src varchar(30)
+    des varchar(30)
+    ddate varchar(30)
+    PRIMARY KEY(PNR)
+    FOREIGN KEY(aadhar) REFERENCES passenger(aadhar)
+    FOREIGN KEY(flightcode) REFERENCES flight(f_code)
+}
+
+cancel {
+    pnr varchar(20)
+    name varchar(40)
+    cancelno varchar(20)
+    fcode varchar(20)
+    ddate varchar(30)
+    PRIMARY KEY(cancelno)
+    FOREIGN KEY(pnr) REFERENCES reservation(PNR)
+    FOREIGN KEY(fcode) REFERENCES flight(f_code)
+}
