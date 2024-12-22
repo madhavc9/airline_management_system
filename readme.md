@@ -136,7 +136,7 @@ String password = "your_password";</code></pre></li>
     <strong>Developer</strong>: Madhav<br>
     📧 <strong>Email</strong>: <a href="mailto:madhav.c9@hotmail.com">madhav.c9@hotmail.com</a><br>
     🔗 <strong>GitHub</strong>: <a href="https://github.com/madhavc9">https://github.com/madhavc9</a><br>
-    🔗 <strong>LinkedIn</strong>: <a href="https://linkedin.com/in/madhav-choudhary">https://linkedin.com/in/madhav-choudhary</a><br>
+    🔗 <strong>LinkedIn</strong>: <a href="https://www.linkedin.com/in/madhav-choudhary-015124216/">https://linkedin.com/in/madhav-choudhary</a><br>
   </p>
 </details>
 
